@@ -29,7 +29,8 @@ defmodule Bob.Mixfile do
       {:porcelain, "~> 2.0"},
       {:rollbax, "~> 0.11.0"},
       {:sweet_xml, "~> 0.5"},
-      {:logster, "~> 1.0"}
+      {:logster, "~> 1.0"},
+      {:mock, "~> 0.3.0", only: :test}
     ]
   end
 
